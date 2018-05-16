@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    $('.menu-line').on('click', function() {
-        
+    $('.menu-line-toggle').on('click', function() {
+        $('.modal').fadeToggle();
     });
 });
 
