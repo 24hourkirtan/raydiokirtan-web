@@ -234,16 +234,41 @@ body {
 
 .modal {
     width: 490px;
-    height: 820px;
     position: absolute;
     top: 0;
-    left: 133px;
-    background-color: #c3414b;
+    left: 133px;    
     opacity: 0.9;
     display: none;
     z-index: 5;
+    margin-bottom: 35px;
 }
-
+.modal-page {
+    padding-bottom: 30px;
+}
+.modal-page-1 {
+    background-color: #c3414b;
+    padding-top: 118px;
+    padding-left: 20px;
+}
+.modal-menu {
+    list-style-type: none;
+    list-style-position: inside;
+    
+}
+.modal-menu .number {
+    font-size: 26px;
+    color: #95988f;
+}
+.modal-menu-item {
+    font-family: 'Bodoni', serif;
+    font-size: 65px;
+    color: #fff;
+    line-height: 1em;
+}
+.modal-copyright {
+    margin-top: 75px;
+    color: #95988f;
+}
 .copyright {
     font-size: 16px;
     color: #808184;
