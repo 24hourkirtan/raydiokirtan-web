@@ -240,15 +240,21 @@ body {
     opacity: 0.9;
     display: none;
     z-index: 5;
-    margin-bottom: 35px;
 }
 .modal-page {
     padding-bottom: 30px;
+    display: none;
+    background-color: #eceaeb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 35px;
 }
-.modal-page-1 {
+.modal-page-menu {
     background-color: #c3414b;
     padding-top: 118px;
     padding-left: 20px;
+    display: block;
 }
 .modal-menu {
     list-style-type: none;
@@ -264,6 +270,7 @@ body {
     font-size: 65px;
     color: #fff;
     line-height: 1em;
+    cursor: pointer;
 }
 .modal-copyright {
     margin-top: 75px;

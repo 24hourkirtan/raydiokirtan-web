@@ -86,7 +86,15 @@
             </div>
         </div>
         <div class="modal">
-            <?php include_once('includes/modal-menu-page.php'); ?>            
+            <?php 
+                include_once('includes/modal-page-menu.php'); 
+                include_once('includes/modal-page-about.php'); 
+                include_once('includes/modal-page-credits.php'); 
+                include_once('includes/modal-page-donate.php'); 
+                include_once('includes/modal-page-imprint.php'); 
+                include_once('includes/modal-page-app.php'); 
+                include_once('includes/modal-page-contact.php'); 
+            ?>            
         </div>
       </div>
     </div>
