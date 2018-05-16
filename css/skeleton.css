@@ -8,22 +8,14 @@
 */
 
 
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Grid
-- Base Styles
-- Typography
-- Links
-- Buttons
-- Forms
-- Lists
-- Code
-- Tables
-- Spacing
-- Utilities
-- Clearing
-- Media Queries
-*/
+@font-face {
+    font-family: 'Bodoni';
+    src: url('../fonts/bodonibold.woff2') format('woff2'),
+         url('../fonts/bodonibold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
 
 
 /* Grid
