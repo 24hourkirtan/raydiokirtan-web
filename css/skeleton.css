@@ -169,20 +169,22 @@ body {
 .main-content-left {
     margin-right: 32px;
 }
-.menu-line {
-    width: 55px;
-    height: 3px;
-    margin-bottom: 18px;
+.main-content-left .lines {
     margin-left: 46px;
-    display: block;    
 }
 .menu-line-toggle {
     cursor: pointer;
 } 
-.menu-line-1 { background-color: #B7809C; }
-.menu-line-2 { background-color: #824B9E; }
-.menu-line-3 { background-color: #c3414b; }
-.menu-line-4, .menu-line-5, .menu-line-6 { background-color: #D1A7B8; opacity: 0.3; }
+.main-content-left .line {
+    width: 55px;
+    height: 3px;
+    margin-bottom: 18px;
+    display: block;    
+}
+.line-1 { background-color: #B7809C; }
+.line-2 { background-color: #824B9E; }
+.line-3 { background-color: #c3414b; }
+.line-4, .line-5, .line-6 { background-color: #D1A7B8; opacity: 0.3; }
 
 .main-content-right {    
     width: 275px;
