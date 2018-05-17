@@ -10,7 +10,7 @@
         </li>
         <li>
             <span class="number">03</span>
-            <span class="modal-menu-item" data-link="donate">Do<br />-nate</span>
+            <span class="modal-menu-item" data-link="donate">Do<br />- nate</span>
         </li>
         <li>
             <span class="number">04</span>

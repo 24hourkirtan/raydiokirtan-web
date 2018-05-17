@@ -1,7 +1,16 @@
 <div class="modal-page modal-page-about">
-    <h2 class="modal-page-heading">Lorem ipsum dolor</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus tellus et nibh dignissim rhoncus. Donec sit amet facilisis risus. Donec fringilla risus vitae finibus tempus. Aliquam a tristique metus. Pellentesque orci purus, bibendum sit amet congue at, porta et neque. Phasellus at lectus ultricies, gravida nibh dapibus, volutpat nisi. Proin at sagittis sem, quis rhoncus mi. Aliquam non condimentum mauris, sed interdum lorem. Nam fringilla hendrerit orci ac molestie. Etiam ac enim vitae lorem consectetur dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non pulvinar purus. Integer consectetur luctus dui ac tempor. Maecenas tempus, lorem id tincidunt egestas, arcu nunc tempor ex, sit amet ultricies lorem dui sit amet arcu. Aliquam justo massa, elementum ac arcu sit amet, accumsan tincidunt ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    <span class="modal-page-preheading">Pamho. _o___</span>
+    <h2 class="modal-page-heading">
+        <span class="modal-page-heading-number">01</span>
+        <span class="modal-page-heading-title">About Ray-<br />dio K</span>
+    </h2> 
+    <p>Raydio Kirtan .FM is a contemporary Vaishnava radio station with music of various genres and its fusions. It’s a blend of rock, pop, electronica, hip-hop, ethno, drum’n’bass, breakbeat, techno, krishnacore, acoustic ... We’re presenting and broadcasting new, strictly Vaishnava’s music production as well as some classics.</p>
 
-    <p>Quisque sit amet nibh diam. Quisque ut est non risus laoreet fringilla sit amet eget risus. Nullam condimentum justo non libero vestibulum, eget tincidunt ex congue. In hac habitasse platea dictumst. Donec maximus tristique sapien ac fermentum. Cras condimentum ultricies lacus, auctor eleifend magna finibus a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sodales metus quis ullamcorper laoreet. Suspendisse a cursus nibh. Pellentesque pulvinar orci ut facilisis scelerisque. Integer rhoncus dapibus felis, ac tempor orci mattis ut. Aliquam non odio in nibh lacinia elementum. Vivamus bibendum dictum vestibulum. Vestibulum porttitor magna ac lectus maximus lobortis. Integer vel finibus est. Sed porttitor condimentum sapien in semper.</p>
+    <p>K is for Krishna, and K is for Kirtan. Raydio K are Krishna’s devotees: Nanda Kishor Das from Switzerland and Dhyanachandra Das from Slovenia. Our main and very simple goal is to bring the Yuga-dharma - Harinam-sankirtan in the ether, to as many of those as possible: loud speakers, headphones, amplifiers, cellphones, laptops and tablets. We wish they all vibrate and resonate in Kirtan and the holyname.</p>
+
+    <p>We’re always happy when we hear new music: albums and sets, even mixtapes. You’re more then welcome to send us an e-mail with the links to your downloadable tracks you made yourself or you love hearing.</p>
+
+    <p>Ray-<br />
+    dio Kirtan*s music selection is lovingly curated by Dhyanachandra Das.</p>
     <span class="modal-copyright">Copyright (C) 2018 Raydio Kirtan</span>
 </div>

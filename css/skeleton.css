@@ -261,16 +261,23 @@ body {
     list-style-position: inside;
     
 }
-.modal-menu .number {
+.modal-menu .number, .modal-page-heading-number {
     font-size: 26px;
     color: #95988f;
+    font-family: 'Roboto', sans-serif;
 }
-.modal-menu-item {
+.modal-menu-item, .modal-page-heading {
     font-family: 'Bodoni', serif;
     font-size: 65px;
     color: #fff;
     line-height: 1em;
     cursor: pointer;
+}
+.modal-page-preheading, .modal-page-heading-number, .modal-page p {
+    color: #807e7f;
+}
+.modal-page-heading {
+    color: #c3414b;
 }
 .modal-copyright {
     margin-top: 75px;
