@@ -64,13 +64,13 @@
                             <div class="main-content-right-stream box">
                                 <!--
                                 <audio id="audio1" data-able-player preload="auto">
-                                    <source type="audio/mpeg" src="http://server.24hourkirtan.fm:8000/raydio128k.mp3"/>
+                                    <source type="audio/mpeg" src="https://server.24hourkirtan.fm:8000/raydio128k.mp3"/>
                                 </audio>
                                 -->
                                 <div id="nativeflashradio" style="width:100%; height:60px;"></div>
                                 <script>
                                 $("#nativeflashradio").flashradio({
-                                    streamurl: "http://server.24hourkirtan.fm:8000", 
+                                    streamurl: "https://server.24hourkirtan.fm:8000", 
                                     streampath: "/",
                                     streamid: "1",
                                     streamtype: "icecast2",
