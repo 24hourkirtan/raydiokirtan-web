@@ -312,9 +312,10 @@ body {
     color: #95988f;
 }
 .copyright {
-    font-size: 16px;
+    font-size: 13px;
     color: #808184;
     margin-top: 100px;
+    text-align: center;
 }
 .modal-page-menu .modal-copyright {
     padding-left: 0;
