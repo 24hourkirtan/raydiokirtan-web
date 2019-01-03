@@ -138,6 +138,30 @@
 			</tr>
 		</table>
 
+		<h1>Basic Settings Radiojar Server</h1>
+		<table>
+			<tr>
+				<th>Setting</th>
+				<th>Description</th>
+				<th>Value</th>
+			</tr>
+			<tr>
+				<td>streamurl:</td>
+				<td>URL to your radio stream</td>
+				<td>http://server:port</td>
+			</tr>
+			<tr>
+				<td>streamtype:</td>
+				<td>Type of Shoutcast (1/2), Icecast2, radionomy or other</td>
+				<td>radiojar</td>
+			</tr>
+			<tr>
+				<td>radiojar:</td>
+				<td>The stream name</td>
+				<td>uf6x8w5f81ac</td>
+			</tr>
+		</table>
+
 		<h1>Basic Settings Other Servers</h1>
 		<table>
 			<tr>
@@ -295,14 +319,58 @@
 			</tr>
 		</table>
 
-		<h1 id="corsproxy">SSL CORS PROXY LIST</h1>
+		<h1>SSL CORS PROXY LIST</h1>
 		<table>
 			<tr>
-					<th>
-							https://html5radioplayer.herokuapp.com/?q=
-						</th>
+				<th>
+					https://html5radioplayer.herokuapp.com/?q=
+				</th>
 			</tr>
-				
+			<tr>
+				<th>
+					https://html5radioplayer1us.herokuapp.com/?q=
+				</th>
+			</tr>
+			<tr>
+				<th>
+					https://html5radioplayer2us.herokuapp.com/?q=
+				</th>
+			</tr>
+			<tr>
+				<th>
+					https://html5radioplayer3us.herokuapp.com/?q=
+				</th>
+			</tr>
+			<tr>
+				<th>
+					https://html5radioplayer4us.herokuapp.com/?q=
+				</th>
+			</tr>
+			<tr>
+				<th>
+					https://html5radioplayer5us.herokuapp.com/?q=
+				</th>
+			</tr>
+			<tr>
+				<th>
+					https://html5radioplayer6eu.herokuapp.com/?q=
+				</th>
+			</tr>
+			<tr>
+				<th>
+					https://html5radioplayer7eu.herokuapp.com/?q=
+				</th>
+			</tr>
+			<tr>
+				<th>
+					https://html5radioplayer8eu.herokuapp.com/?q=
+				</th>
+			</tr>
+			<tr>
+				<th>
+					https://html5radioplayer9eu.herokuapp.com/?q=
+				</th>
+			</tr>
 			<tr>
 				<th>https://galvanize-cors-proxy.herokuapp.com/</th>
 			</tr>
@@ -318,6 +386,10 @@
 			<tr>
 				<th>https://cors.now.sh/</th>
 			</tr>
+			<tr>
+				<th>Or install your own CORS PROXY easy with this <a href="https://youtu.be/ai2Cx9AjK34">Video Tutorial: https://youtu.be/ai2Cx9AjK34</a></th>
+			</tr>
+			
 		</table>
 
 		<h1>Installation</h1>
@@ -345,6 +417,16 @@
     });
 &lt;/script&gt;</pre>
 			</div>
+
+			<table>
+				<tr>
+					<th>
+						<a href="https://www.youtube.com/watch?v=Dq4KNe_JPaQ" target="_blank"><img style="width:100%;" src="img/installation.jpg" ></a>
+					</th>
+				</tr>
+			</table>
+			
+
 
 			<h1>Shortcode Generator</h1>
 
@@ -549,7 +631,7 @@ cert = /etc/stunnel/stunnel.pem
 		</div>
 	</div>
 </div>
-<div class="foot">© 2017 by <a href="https://www.sodah.de" target="_blank">Sodah</a></div>
+<div class="foot">© 2018 by <a href="https://www.sodah.de" target="_blank">Sodah</a></div>
 <script src="js/nativeflashradiov4.js"></script>
 
 <script>
@@ -570,10 +652,9 @@ cert = /etc/stunnel/stunnel.pem
 	        scroll: "auto", 
 	        autoplay: "false", 
 	        startvolume: "100",
-	        useanalyzer: "real",
+	        useanalyzer: "fake",
 	        analyzertype: "3",
-			corsproxy: "https://html5radioplayer.herokuapp.com/?q=",
-			usestreamcorsproxy: "true"
+			corsproxy: "https://cors-anywhere.herokuapp.com/"
 	    });
 
 	   $("#icecast2").flashradio({
@@ -585,21 +666,20 @@ cert = /etc/stunnel/stunnel.pem
 			songgooglefontname: "Oswald:400",
 			themecolor: "#355c7d", 
 			themefontcolor:"#ffffff", 
-			streamurl: "http://79.172.194.189:8060", 
-			mountpoint: "/live.mp3",
-			streamtype: "icecast2",
+			streamurl: "http://144.76.106.52:7000", 
+			streampath: "/electronic.mp3",
+			streamtype: "shoutcast2",
 			songinformationinterval:"15000", 
 			scroll: "true", 
 			autoplay: "FALSE", 
 			startvolume: "50",
-			useanalyzer: "real",
+			useanalyzer: "fake",
 			analyzertype: "6",
-			corsproxy: "https://html5radioplayer.herokuapp.com/?q=",
-			usestreamcorsproxy: "false"
+			corsproxy: "https://cors-anywhere.herokuapp.com/"
     	});
 
 		$("#radionomy").flashradio({
-			useanalyzer: "real",
+			useanalyzer: "fake",
 			themecolor: "#f8b195", 
 			themefontcolor:"#f67280", 
 			streamurl: "http://listen.radionomy.com/wimpy",
@@ -612,8 +692,7 @@ cert = /etc/stunnel/stunnel.pem
 			debug: "false", 
 			startvolume: "100",
 			analyzertype: "2",
-			corsproxy: "https://html5radioplayer.herokuapp.com/?q=",
-			usestreamcorsproxy: "true"
+			corsproxy: "https://cors-anywhere.herokuapp.com/"
     	});
 	};
 </script>
