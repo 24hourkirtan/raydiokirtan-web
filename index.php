@@ -109,7 +109,7 @@
 
                             </div>
                             <div class="copyright box">
-                                Copyright (c) 2018 Raydio Kirtan
+                                Copyright (c) 2018-2019 Raydio Kirtan
                             </div>
                         </div>
                     </div>
