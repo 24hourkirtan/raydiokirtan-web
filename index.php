@@ -70,7 +70,8 @@
                                 <div id="nativeflashradio" style="width:100%; height:60px;"></div>
                                 <script>
                                 $("#nativeflashradio").flashradio({
-                                    streamurl: "https://server.24hourkirtan.fm:8000", 
+				    token: "c2J6ZWpwbGpzdWJvL2duAQ==",
+				    streamurl: "https://server.24hourkirtan.fm:8000", 
                                     streampath: "/",
                                     streamid: "1",
                                     streamtype: "icecast2",
